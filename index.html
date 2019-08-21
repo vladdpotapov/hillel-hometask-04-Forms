@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"  content="width=device-width, 
+                                    initial-scale=1.0,
+                                    minimum-scale=1.0,
+                                    maximum-scale=1.0,
+                                    user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shop</title>
+</head>
+<body>
+    <section id="login">
+        <div class="form-boxes">
+            <form class="forms" action="https://fom.in.ua/echo" method="POST">
+                <fieldset>
+                    <legend>Log In:</legend>
+                    <input type="email" name="user-email" placeholder="Enter Email">
+                    <br>
+                    <br>
+                    <input type="password" name="user-password" placeholder="Enter Password">
+                    <br>
+                    <br>
+                    <input type="checkbox" name="remember-me" id="remember"><label for="remember">Remember Me</label>
+                    <br>
+                    <br>
+                    <input type="submit" value="Enter the Shop">
+                </fieldset>
+            </form>    
+        </div>
+    </section>
+                    <br>
+                    <br>
+    <section id="register">
+        <div class="form-boxes">
+            <form class="forms" action="https://fom.in.ua/echo" method="POST">
+                <fieldset>
+                    <legend>Registration:</legend>
+                    <input type="email" name="user-email" placeholder="Enter Email">
+                    <br>
+                    <br>
+                    <input type="password" name="user-password" placeholder="Enter Password">
+                    <br>
+                    <br>
+                    <input type="password" name="user-password-confirm" placeholder="Confirm Password">
+                    <br>
+                    <br>
+                    <input type="submit" value="Register">
+                </fieldset>
+            </form>
+        </div>
+    </section>
+                    <br>
+                    <br>
+    <section id="search">
+        <div class="form-boxes">
+            <form class="forms" action="https://fom.in.ua/echo" method="GET">
+                <fieldset>
+                    <legend>Detailed Search:</legend>
+                    <p class="form-text">
+                        HONDA
+                    </p>
+                    <select name="honda-model" id="honda-models">
+                        <option value="cb400">CB 400</option>
+                        <option value="cb600">CB 600 Hornet</option>
+                        <option value="cbr600rr">CBR600RR</option>
+                        <option value="cbr1000rr">CBR1000RR</option>
+                    </select>
+                    
+                    <p class="form-text">
+                        KAWASAKI
+                    </p>
+                    <select name="kawasaki-model" id="kawasaki-models">
+                        <option value="zx6r">ZX6R</option>
+                        <option value="z750">Z750</option>
+                        <option value="z900">Z900</option>
+                        <option value="z1000">Z1000</option>
+                    </select>
+                    
+                    <p class="form-text">
+                        SUZUKI
+                    </p>
+                    <select name="suzuki-model" id="suzuki-models">
+                        <option value="gsx750f">GSX 750F Katana</option>
+                        <option value="gsx1000r">GSX-R 1000</option>
+                        <option value="gsf1200">GSF 1200</option>
+                        <option value="gsx1300r">GSX 1300R Hayabusa</option>
+                    </select>
+                    
+                    <p class="form-text">
+                         YAMAHA
+                    </p>
+                    <select name="yamaha-model" id="yamaha-models">
+                        <option value="vmax">V-Max</option>
+                        <option value="roadstar">Road Star</option>
+                        <option value="r6">R6</option>
+                        <option value="r1">R1</option>
+                    </select>
+                    
+                    <p class="form-text">
+                        Year
+                    </p>
+                    2000<input type="range" name="year" min="2000" max="2019">2019
+
+                    <p class="form-text">
+                        Price
+                    </p>
+                    1000<input type="range" name="year" min="2000" max="2019">50000
+                    
+                    <p class="form-text">
+                        Country
+                    </p>
+                    <select name="country" id="country">
+                        <option value="japan">Japan</option>
+                        <option value="usa">USA</option>
+                        <option value="india">India</option>
+                        <option value="china">China</option>
+                    </select>
+
+                    <p class="form-text">
+                        Conditions
+                    </p>
+                    <input type="checkbox" name="new" id="cb-new"><label for="cb-new">New</label>
+                    <input type="checkbox" name="used" id="cb-used"><label for="cb-used">Used</label>
+                    <input type="checkbox" name="crashed" id="cb-crashed"><label for="cb-crashed">Crashed</label>
+                    <input type="checkbox" name="w/d" id="cb-w/d"><label for="cb-w/d">Without Documents</label>
+
+                    <p class="form-text">
+                        Fuel
+                    </p>
+                    <select name="fuel" id="fuels">
+                        <option value="petrol">Petrol</option>
+                        <option value="dfuel">Diesel Fuel</option>
+                    </select>
+
+                    <p class="form-text">
+                        Transmission
+                    </p>
+                    <input type="radio" name="transmission" id="t-auto" value="automatic"><label for="t-auto">Automatic</label>
+                    <input type="radio" name="transmission" id="t-manual" value="manual"><label for="t-manual">Manual</label>
+
+                    <p class="form-text">
+                        Color
+                    </p>
+                    <input type="checkbox" name="black" id="cb-black"><label for="cb-black">Black</label>
+                    <input type="checkbox" name="white" id="cb-white"><label for="cb-white">White</label>
+                    <input type="checkbox" name="red" id="cb-red"><label for="cb-red">Red</label>
+                    <input type="checkbox" name="green" id="cb-green"><label for="cb-green">Green</label>
+                    <input type="checkbox" name="blue" id="cb-blue"><label for="cb-blue">Blue</label>
+                    <input type="checkbox" name="orange" id="cb-orange"><label for="cb-orange">Orange</label>
+
+                    <p class="form-text">
+                        Additional Options
+                    </p>
+                    <input type="checkbox" name="abs" id="cb-abs"><label for="cb-abs">ABS</label>
+                    <input type="checkbox" name="injector" id="cb-injector"><label for="cb-injector">Injector System</label>
+                    <input type="checkbox" name="xenon" id="cb-xenon"><label for="cb-xenon">Xenon</label>
+                    <input type="checkbox" name="slider" id="cb-slider"><label for="cb-slider">Slider</label>
+                    <input type="checkbox" name="custom-exhaust" id="cb-exhaust"><label for="cb-exhaust">Custom Exhaust</label>
+                </fieldset>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
